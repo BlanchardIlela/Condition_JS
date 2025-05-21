@@ -1,9 +1,7 @@
-# Jour ouvrable ou week-end
+# Tâche améliorée
 
+En fonction de la valeur de la variable number, effectuez les opérations suivantes :
 
-Écrivez une fonction qui prend un jour en paramètre. 
-Votre tâche est d'implémenter une logique dans cette fonction pour qu'elle affiche "Jour ouvrable" si le jour est un jour de semaine (lundi à vendredi), 
-"Week-end" si le jour est samedi ou dimanche.
-
-
-
+- Si number est strictement supérieur à 0, assignez true à la variable result.
+- Si number est strictement inférieur à 0, assignez false à la variable result.
+- Si number est égal à 0, assignez null à la variable result.

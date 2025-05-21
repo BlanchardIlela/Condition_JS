@@ -1,19 +1,17 @@
-let jour;
+let number;
 let result;
-// Ne pas toucher aux codes du dessus
+// Ne pas toucher aux codes au-dessus
 
 // Ecrivez votre code ici
 
-function verifierJour(jour) {
-
-    if(jour == "lundi" || jour == "mardi" || jour == "mercredi" || jour == "jeudi" || jour == "vendredi"){
-        return result = 'Jour ouvrable'
-    }else if(jour == 'samedi' || jour == 'dimanche'){
-        return result = 'Week-end'
+if(Number.isNaN(number) || typeof number !== 'number'){
+    result = null
+}else{
+    if(number < 0 || number === 0){
+        result = false
     }else{
-        return result = undefined
+        result = true
     }
-
 }
 
-console.log(verifierJour(jour))
+console.log(result);
